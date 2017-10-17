@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%=typeof title == 'undefined' ? 'New Sails App' : title%></title>
+    <title><%=typeof title == 'undefined' ? 'CityGo' : title%></title>
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -30,21 +30,21 @@
 
     <!--STYLES-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/materialize.css">
-    <link rel="stylesheet" href="/styles/materialize.min.css">
+    <link rel="stylesheet" href="/styles/materializeSass.css">
     <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/styleCustom.css">
+    
     <!--STYLES END-->
   </head>
 
   <body>
     <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="/" class="brand-logo">CitynJo</a>
+      <a id="logo-container" href="/" class="brand-logo">GO!</a>
       <ul class="right hide-on-med-and-down">
         <% if (!req.session.me) { %>
           <li><a href="/">About us</a></li>
           <li><a href="/login">Login</a></li>
+          <li><a href="/login1">Login1</a></li>
         <% } else { %>
           <li><a href="/logout">Logout</a></li>
         <% } %>
@@ -54,6 +54,7 @@
         <% if (!req.session.me) { %>
           <li><a href="/">About us</a></li>
           <li><a href="/login">Login</a></li>
+          <li><a href="/login1">Login1</a></li>
         <% } else { %>
           <li><a href="/logout">Logout</a></li>
         <% } %>

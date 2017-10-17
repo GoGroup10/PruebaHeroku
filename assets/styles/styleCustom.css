@@ -14,6 +14,7 @@
    z-index: 5;
 }
 
+
 .box.back {
    transform: scale(.95);
    -webkit-transform: scale(.95);
@@ -329,7 +330,6 @@
 }
 
 body {
-   background-image: url(https://static-s.aa-cdn.net/img/gp/20600004610199/NQclO5qDrrcN4-gjBLD_PsrcgoXLLMhxOQsxskOm3_VZDxIjnxLjvcpM5i2suWCwWV8=h900);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
