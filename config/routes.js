@@ -38,6 +38,7 @@ module.exports.routes = {
   '/welcome': { view: 'user/welcome' },
   '/home': { view: 'user/home' },
   '/login1': { view: 'user/login1'},
+  '/login2': { view: 'user/login2'},
 
   // Endpoints
   'post /login': 'UserController.login',
